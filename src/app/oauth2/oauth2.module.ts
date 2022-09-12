@@ -43,7 +43,7 @@ import { NbAuthModule, NbOAuth2AuthStrategy, NbOAuth2ResponseType } from '@nebul
     ],
     declarations: [
         OAuth2LoginComponent,
-        OAuth2CallbackComponent
+        OAuth2CallbackComponent,
     ],
 })
 export class OAuth2Module {

@@ -5,7 +5,7 @@ import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 
 @Component({
-    selector: 'nb-playground-oauth2-callback',
+    selector: 'ngx-nb-playground-oauth2-callback',
     template: `
      <nb-layout>
        <nb-layout-column>Authenticating...</nb-layout-column>

@@ -19,7 +19,7 @@ const routes: Routes = [{
     {
       path: 'iot-dashboard',
       component: DashboardComponent,
-      canActivate: [AuthGuard]
+      canActivate: [AuthGuard],
     },
     {
       path: 'layout',
