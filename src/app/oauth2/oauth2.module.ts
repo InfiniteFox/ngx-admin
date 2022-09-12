@@ -27,7 +27,7 @@ import { NbAuthModule, NbOAuth2AuthStrategy, NbOAuth2ResponseType } from '@nebul
                 NbOAuth2AuthStrategy.setup({
                     name: 'google',
                     clientId: '402783797469-qhege00rbsh0bi5sri003bpaei711u3m.apps.googleusercontent.com',
-                    clientSecret: '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',
+                    clientSecret: '',
                     authorize: {
                         endpoint: 'https://accounts.google.com/o/oauth2/v2/auth',
                         responseType: NbOAuth2ResponseType.TOKEN,
