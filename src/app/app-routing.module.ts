@@ -1,11 +1,10 @@
 import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { AuthGuard } from './oauth2/auth.guard';
 
 export const routes: Routes = [
   {
-    path: 'login',
-    loadChildren: () => import('./oauth2/oauth2.module').then(m => m.OAuth2Module),
+    path: 'auth',
+    loadChildren: () => import('./auth/auth.module').then(m => m.NgxAuthModule),
   },
   {
     path: 'pages',
